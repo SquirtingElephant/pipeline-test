@@ -4,8 +4,13 @@ namespace TestProject1
 {
     public class Tests
     {
+        [SetUp]
+        public void Setup()
+        {
+        }
+
         [Test]
-        public void TestSuccess()
+        public void Test1()
         {
             Assert.Pass();
         }
